@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <link rel="icon" href="./favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="./libs/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./libs/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="./libs/fontawesome/css/solid.min.css">
+    <title>Bootstrap Test</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-12">
+                        <h1>Logo</h1>                    
+                    </div>
+
+                    <div class="col-md-10 col-sm-12">
+                        <ul class="nav">
+                            <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#sobre">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#produtos">Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contato">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </header>
+
+    <div id="mycarousel" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/carr1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First Slide</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati nulla officiis.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carr2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second Slide</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, aut. Quidem, repellat.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carr3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third Slide</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis, quis mollitia ex maiores architecto et?</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    
+    <section id="sobre">
+            <div class="container">
+                <div class="row">
+                    <h2>Sobre</h2>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="./images/photo.jpg" alt="Foto" class="img-fluid">
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo non eius facilis maxime eveniet quisquam harum esse cumque voluptates in reiciendis animi debitis saepe blanditiis, fugiat quae modi aperiam nisi.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum magnam neque ullam natus repellat nisi mollitia cupiditate fugiat! Distinctio quibusdam repellat aliquid aspernatur magnam delectus doloremque natus, nulla illum voluptate!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, omnis! Mollitia aspernatur molestias amet dolor repudiandae sint dolores quidem hic reiciendis nobis exercitationem ut magni minus aliquam fugiat, doloribus ipsam?</p>
+                    </div>    
+                </div>
+            </div>
+    </section>
+
+    <section id="produtos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <img src="./images/product1.jpg" alt="Photo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Example 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">See Product</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/product2.jpg" alt="Photo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Example 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a class="btn btn-primary" href="#produto-2">See Product</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/product3.jpg" alt="Photo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Example 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a class="btn btn-primary" href="#produto-3">See Product</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contact</h2>
+                    <p><i class="fa-solid fa-envelope"></i> Reach out to us if you wanna receive news and special offers on your e-mail.<br><br>Feel free to ask or suggest anything.</p>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <form action="" class="form">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="Type your name">
+                        </div>
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="Type your email" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="form-control" name="mensagem" rows="5"></textarea>
+                        </div>
+                        <button class="btn-lg btn-success">Send</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="col-12 justify-content-center">
+                    Developed by <strong>Behe </strong><a href="https://github.com/B-E-H-E" target="_blank"><i class="fa-2x fa-brands fa-github"></i></a> 
+                </div>
+            </div>
+        
+        </div>
+    </footer>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Product 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Models and Prices</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>X</td>
+                                <td>$ 100</td>
+                            </tr>
+                            <tr>
+                                <td>Y</td>
+                                <td>$ 200</td>
+                            </tr>
+                            <tr>
+                                <td>Z</td>
+                                <td>$ 300</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    
+
+
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./libs/bootstrap//js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/fontawesome/js/fontawesome.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body {
+    background-color: #111;
+    color: #ddd;
+}
+
+section {
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+}
+
+body,
+.card {
+    background-color: #111;
+}
+
+.card {
+    width: 31.3%;    
+    float: left;
+    margin: 1%;
+    border-color: #222;
+    border-width: 2px;    
+}
+
+.card img {
+    width: 100%;    
+}
+
+img {
+    border-bottom: 2px solid #f33;
+}
+
+.nav-link {
+    color: #ddd;
+}
+
+.nav-link:hover,
+.nav-link:active 
+ {
+    color: #dd2222;
+    transition: 0.25s linear;
+}
+
+.nav {
+    margin-top: 0.5%;
+    max-width: 100%;    
+}
+
+.nav-item {
+    border-right: 1px solid #ccc;    
+}
+
+.nav-item:last-of-type {
+    border-right: none;
+}
+
+.header-container {
+    background-color: #181818;
+    border-bottom: 2px solid #aaa;
+    box-shadow: 0 5px 0 #151515;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.modal {
+    color: #111;
+}
+
+.btn-primary {
+    margin-top: 15px;
+}
+
+.btn-success {
+    background-color: #cc1010;
+    border-color: #cc1010;
+}
+
+.btn-success:hover {
+    background-color: #cc1010ce;
+    border-color: #cc1010a2;
+}
+
+.footer {
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.footer a {
+   text-decoration: underline;
+   color: #ddd;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width:48%;
+    }
+}
+
+@media (max-width: 425px) {
+    .card {
+        width:98%;
+    }
+    .nav {
+        font-size: 0.8rem;
+        justify-content: center;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
