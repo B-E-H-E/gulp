@@ -1,59 +1,16 @@
-# Bootstrap
-- Framework ou biblioteca de desenvolvimento
-- Modular
-- Componentes ricos
-- CSS + JS
-- Grid System
-- Responsivo
-- Mobile-first
-- Amplamente utilizada
-- Cross-browser
+# Gerenciamento de Dependências
 
-## Biblioteca x Framework
-#### Biblioteca:
-- oferece objetos/classes prontas para uso
-- recurso para trabalhar
-- te leva ao destino
-#### Framework:
-- oferece um conjunto de bibliotecas
-- metodologia de trabalho
-- te ensina a chegar
+## Instalar o Gulp
+- Rodar node.js
+- Rodar ``npm init -y`` na pasta do projeto pelo terminal para adicionar o npm
+- Instalar gulp-cli (Command Line Interface) golbalmente: ``npm install gulp-cli -g``
+- Criar o gulpfile.js
 
-## Desenvolvimento Ágil
-- Metolodigas: Scrum, Kanban, XP
-- Entrega de valor para o negócio
-- Ciclos evolutivos
-- "Don't repeat yourself"
-- Separar grandes projetos em pequenas entregas
+## Trabalhando com Gulp
+- Tasks-centered
 
-## Desvantagens
-- Uso excessivo
-- Override de estilos
-- Abstração de estilos
+- npm install gulp-concat une os arquivos para uma chamada só, reduzindo o tempo de carregamento de diversos arquivos
 
-### Com Bootstrap
-```
-<a class="btn btn-lg">Botão</a>
-```
+- npm install gulp-cssmin minifica automaticamente os arquivos css 
 
-### Sem Bootstrap
-```
-<a class="btn btn-lg">Botão</a>
-
-<style>
-    html { ... }
-
-    .btn { ... }
-
-    .btn-lg { ... }
-</style>
-```
-
-## Componentes
-- Blocos /  Modelos / Templates reutilizáveis
-https://getbootstrap.com/docs/5.2/components/
-
-## Helpers
-- Funções básicas
-- Incrementos
-- Ajustes
+- Rodar os dois anteriores com a flag ``--save-dev`` para entrarem na DevDependencies no json
